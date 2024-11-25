@@ -24,4 +24,10 @@ By leveraging AWS Amplify's powerful tools for building and deploying serverless
 4. DynamoDB: A NoSQL database used to store and manage bucket list items, ensuring fast and scalable data handling.
 5. S3 Bucket: Provides storage for user-uploaded images, such as pictures associated with bucket list items, ensuring scalable and secure file storage.
 
+>>Architectural Diagram:-
+
+![image](https://github.com/user-attachments/assets/4bfb7009-0e4d-40e6-b4f4-b71463616721)
+
+
+
 
