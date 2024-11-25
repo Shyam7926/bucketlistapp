@@ -335,6 +335,9 @@ Next, you’ll deploy your Amplify backend resources to a personal cloud sandbox
 
 You are now ready to move on to the next phase, where you'll implement the frontend logic to interact with these backend services. This will enable your app to communicate with the cloud and provide the necessary functionality for users to manage their bucket lists.
 
+![image](https://github.com/user-attachments/assets/110922d7-5944-467b-95b5-282423a25c03)
+
+
 #
 
 ### **10. Connecting Frontend and Backend**
