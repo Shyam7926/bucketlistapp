@@ -78,7 +78,7 @@ npm run dev
 ![image](https://github.com/user-attachments/assets/4967e9cd-9777-49fe-b50c-332a7dfaaa8e)
 
 
-- **In the terminal window, click the Local link to open the Vite + React application in your browser and see your bucket list tracker.**
+- **In the terminal window, click the Local link to open the Vite + React application in our browser and see our bucket list tracker.**
 
 - **You have successfully set up a React application**
 
@@ -89,9 +89,9 @@ npm run dev
 
 ### **2. Set Up a GitHub Repository**
 
-Here, we’ll create a GitHub repository and commit our code.
+- Here, we’ll create a GitHub repository and commit our code.
 
-Sign in to GitHub at [https://github.com/](https://github.com/). If you don’t have an account, be sure to sign up first.
+Sign in to GitHub at [https://github.com/](https://github.com/). If we don’t have an account, be sure to sign up first.
 
 In the “Create a new repository” section, fill out the following details:
 
@@ -102,8 +102,8 @@ Repository Name: bucketlistapp
 - Choose Public, then click Create a new repository
 ![image](https://github.com/user-attachments/assets/5c170186-799a-454a-8878-e977e10da26e)
 
-- Now that you've created your GitHub repository, it's time to link it with your local code.
-In the terminal of VS Code, go to the root folder of your app (e.g., bucketlistapp). Then, run the necessary commands to initialize a Git repository and push your code to GitHub. 
+- Now that we've created your GitHub repository, it's time to link it with our local code.
+In the terminal of VS Code, go to the root folder of our app (e.g., bucketlistapp). Then, run the necessary commands to initialize a Git repository and push our code to GitHub. 
 
 Following are the commands:
 ```
@@ -116,10 +116,37 @@ git push -u origin main
 
 ```
 
-- For the command `git remote add origin git@github.com:<your-username>/bucketlistapp.git`, you can obtain the URL from your GitHub repository page (or simply copy the URL of the repository from your browser).
+- For the command `git remote add origin git@github.com:<your-username>/bucketlistapp.git`, we can obtain the URL from our GitHub repository page (or simply copy the URL of the repository from our browser).
+
+#
+
+### **3. Install the Amplify Packages**
+
+- Here in this step, we’ll set up an Amplify project for our app.
+
+In the terminal, run the following command from our app’s root folder:
+
+```
+npm create amplify@latest -y
+```
+
+![image](https://github.com/user-attachments/assets/45ee2d20-d502-4271-8ba4-3b0291aeea35)
+
+- **This will create a lightweight Amplify project in your app directory.**
+
+![image](https://github.com/user-attachments/assets/8f09ac2a-25ff-41b1-80d2-a2c23e876501)
 
 
+- Push the changes to GitHub using these commands:
 
+```
+git add . 
+git commit -m "installing amplify" 
+git push origin main
+```
 
+- With this, we have successfully installed the Amplify packages.
+
+#
 
 
