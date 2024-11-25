@@ -74,15 +74,14 @@ npm run dev
 
 - **You can refer to the screenshot below to verify the sequence of commands:**
 
-
-![image](https://github.com/user-attachments/assets/4967e9cd-9777-49fe-b50c-332a7dfaaa8e)
+  ![image](https://github.com/user-attachments/assets/4967e9cd-9777-49fe-b50c-332a7dfaaa8e)
 
 
 - **In the terminal window, click the Local link to open the Vite + React application in our browser and see our bucket list tracker.**
 
 - **You have successfully set up a React application**
 
-![image](https://github.com/user-attachments/assets/b006fa71-af2f-4500-9ad8-07b4298b45cb)
+  ![image](https://github.com/user-attachments/assets/b006fa71-af2f-4500-9ad8-07b4298b45cb)
 
 
 #
@@ -100,7 +99,8 @@ Repository Name: bucketlistapp
 ![image](https://github.com/user-attachments/assets/d4080ac7-4774-4d83-a998-9a753924e952)
 
 - Choose Public, then click Create a new repository
-![image](https://github.com/user-attachments/assets/5c170186-799a-454a-8878-e977e10da26e)
+
+  ![image](https://github.com/user-attachments/assets/5c170186-799a-454a-8878-e977e10da26e)
 
 - Now that we've created your GitHub repository, it's time to link it with our local code.
 In the terminal of VS Code, go to the root folder of our app (e.g., bucketlistapp). Then, run the necessary commands to initialize a Git repository and push our code to GitHub. 
@@ -134,7 +134,7 @@ npm create amplify@latest -y
 
 - **This will create a lightweight Amplify project in your app directory.**
 
-![image](https://github.com/user-attachments/assets/8f09ac2a-25ff-41b1-80d2-a2c23e876501)
+  ![image](https://github.com/user-attachments/assets/8f09ac2a-25ff-41b1-80d2-a2c23e876501)
 
 
 - Push the changes to GitHub using these commands:
@@ -149,4 +149,46 @@ git push origin main
 
 #
 
+### **4. Deploy Your App to AWS Amplify**
 
+- Now, we’ll link your GitHub repository to AWS Amplify, allowing to build, deploy, and host our bucket list tracker app.
+
+- Log in to the AWS Management Console and navigate to the AWS Amplify console at (https://console.aws.amazon.com/amplify).
+- Click on “Create new app.”
+
+  ![image](https://github.com/user-attachments/assets/ce1e6711-96ac-459c-a3ec-6aacd92a9e44)
+
+- On the “Start building with Amplify” page, select GitHub for “Deploy your app” and click Next.
+
+  ![image](https://github.com/user-attachments/assets/af4da94e-a6fc-4691-9408-0b816e284639)
+
+- When prompted, authenticate with GitHub, then select the repository and branch (main) we created earlier. Click Next.
+
+- In the service role section, choose “Create and use a new service role.” Keep the default settings for the rest, then click Next.
+
+  ![image](https://github.com/user-attachments/assets/3439f6a1-88e6-4bc9-9274-e3f85ad9d255)
+
+
+- Review your selections and click Save and deploy.
+
+  ![image](https://github.com/user-attachments/assets/c8d0d765-ce3c-47db-a97f-eb84c7070aa8)
+
+- Allow AWS Amplify some time to create and deploy your app.
+
+- Here we go!
+
+  ![image](https://github.com/user-attachments/assets/7dba4979-4e23-497c-8168-d6eea262b6f4)
+
+- You can access the website by clicking the URL provided in the Domain section.
+
+- AWS Amplify will now compile our source code and deploy our app to a URL similar to https://...amplifyapp.com. Each time we push code to GitHub, Amplify will initiate a new deployment.
+
+#
+
+### **5. Set Up Amplify Backend**
+
+- To build the backend for your bucket list tracker app, you'll use AWS Amplify. This setup will include essential services like authentication, data storage, and file storage, allowing users to manage their lists efficiently.
+
+- AWS Amplify simplifies the process by providing an integrated platform where you can configure backend services like user sign-in, store data, and manage files—all from one place.
+
+- With Amplify, you can quickly set up and deploy a full-stack application, using a code-first approach that integrates hosting, backend services, and UI tools to streamline development.
