@@ -46,6 +46,61 @@ By leveraging AWS Amplify's powerful tools for building and deploying serverless
 
 **Step 7->** CRUD Operations with DynamoDB: The DynamoDB database is automatically created based on your schema, enabling CRUD (Create, Read, Update, Delete) operations from the API.
 
+#
+
+### **Create and Deploy React Frontend App:**
+**Overview:**
+
+AWS Amplify provides a streamlined way to build, deploy, and host single-page applications or static websites with serverless backends using a Git-based CI/CD workflow. 
+Once your app is connected to a Git repository, Amplify automatically detects the build settings for both the frontend and any backend services.
+With each code update, Amplify redeploys your app seamlessly. 
+In this process, you will create a new React app for your bucket list tracker, upload it to a GitHub repository, and link it to AWS Amplify for automatic deployment and hosting.
+
+
+### **1. Create a React App:**
+
+- **Open a new terminal window and execute the below commands to set up a React app using Vite:**
+
+```
+npm create vite@latest bucketlistapp -- --template react
+
+cd bucketlistapp
+
+npm install
+
+npm run dev
+
+```
+
+- **You can refer to the screenshot below to verify the sequence of commands:**
+
+
+![image](https://github.com/user-attachments/assets/4967e9cd-9777-49fe-b50c-332a7dfaaa8e)
+
+
+- **In the terminal window, click the Local link to open the Vite + React application in your browser and see your bucket list tracker.**
+
+- **You have successfully set up a React application**
+
+![image](https://github.com/user-attachments/assets/b006fa71-af2f-4500-9ad8-07b4298b45cb)
+
+
+#
+
+### **2. Set Up a GitHub Repository**
+
+Here, we’ll create a GitHub repository and commit our code.
+
+Sign in to GitHub at [https://github.com/](https://github.com/). If you don’t have an account, be sure to sign up first.
+
+In the “Create a new repository” section, fill out the following details:
+
+Repository Name: bucketlistapp
+
+![image](https://github.com/user-attachments/assets/d4080ac7-4774-4d83-a998-9a753924e952)
+
+
+
 
 
 
