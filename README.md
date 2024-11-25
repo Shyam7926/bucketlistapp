@@ -99,6 +99,25 @@ Repository Name: bucketlistapp
 
 ![image](https://github.com/user-attachments/assets/d4080ac7-4774-4d83-a998-9a753924e952)
 
+- Choose Public, then click Create a new repository
+![image](https://github.com/user-attachments/assets/5c170186-799a-454a-8878-e977e10da26e)
+
+- Now that you've created your GitHub repository, it's time to link it with your local code.
+In the terminal of VS Code, go to the root folder of your app (e.g., bucketlistapp). Then, run the necessary commands to initialize a Git repository and push your code to GitHub. 
+
+Following are the commands:
+```
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin git@github.com:<your-username>/bucketlistapp.git
+git branch -M main
+git push -u origin main
+
+```
+
+- For the command `git remote add origin git@github.com:<your-username>/bucketlistapp.git`, you can obtain the URL from your GitHub repository page (or simply copy the URL of the repository from your browser).
+
 
 
 
