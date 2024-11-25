@@ -655,3 +655,47 @@ npm run dev
 #
 
 
+### **14. Push the Changes to GitHub**
+
+- After making updates to the app, push the changes to GitHub using the following commands:
+
+  ```
+  git add .
+  git commit -m 'bucket list tracker app'
+  git push origin main
+  
+  ```
+
+- Sign in to the AWS Management Console and open the AWS Amplify console.
+
+  AWS Amplify will automatically build your source code and deploy your app at a URL similar to https://...amplifyapp.com. With every git push, Amplify will update your deployment.
+
+  Click the “Visit deployed URL” button to view your bucket list tracker live.
+
+#
+
+### **15. Clean-Up**
+
+In the Amplify console, navigate to the bucketlistapp in the left-hand menu. Select “App settings”, then choose “General settings”.
+
+In the General settings section, click on “Delete app”.
+
+#
+
+### **16. Tracking Challenges**
+
+- This project has been one of the most time-consuming I've worked on, yet the time flew by because I genuinely enjoyed the process. The biggest challenge for me was working with React, as I’m more familiar with Python. React, a JavaScript library for creating dynamic user interfaces, required me to shift my thinking, particularly with JSX, which lets you mix HTML-like syntax directly into JavaScript. Though this transition was tough, I embraced the challenge and soon came to appreciate React’s flexibility and its large ecosystem.
+
+- AWS Amplify also presented its own set of challenges. While I didn’t work on prototypes with Amplify initially, developing within the sandbox environment showed me how powerful it could be for deploying multiple versions of prototypes quickly and efficiently. This made me realize how valuable Amplify could be for streamlining development and deployment, particularly when managing full-stack applications.
+
+#
+
+### **16. Checking Off the Bucket List**
+
+- Reflecting on this project, I see it as a major milestone in accomplishing goals from my development bucket list. The implementation of CI/CD has been eye-opening, showcasing how it can streamline and transform an infrastructure that’s constantly evolving. I took great satisfaction in learning React and discovering the power of AWS Amplify, both of which are essential tools for any developer. While I didn’t build prototypes this time, my experience working within the sandbox environment solidified my belief in Amplify’s ability to facilitate fast and efficient development and deployment.
+
+#
+
+### **17. Bucket List of Improvements**
+
+- Looking ahead, I’m considering upgrading the UI of the application to better reflect my personal style and improve the user experience. I also see the value in registering a domain name for the website, which could elevate its professional appearance. Seeing how all the components integrated to accomplish a key objective has been both exciting and fulfilling. This experience has not only enhanced my skills but has also sparked enthusiasm for the future projects I plan to tackle.
