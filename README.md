@@ -28,6 +28,12 @@ By leveraging AWS Amplify's powerful tools for building and deploying serverless
 
 ![image](https://github.com/user-attachments/assets/4bfb7009-0e4d-40e6-b4f4-b71463616721)
 
-
+1st Step->Deploy React App: Upload the React source code to AWS Amplify for automatic build and deployment.
+Host React App: Amplify will host the app on a secure, scalable URL with CI/CD support for continuous updates.
+Configure Backend: Use Amplify Studio or CLI to set up backend services like authentication, APIs, and storage.
+Implement Authentication: Enable user sign-up and login with Amplify Authentication for secure access.
+Create GraphQL API: Set up a GraphQL API using AWS AppSync for managing bucket list items.
+Define GraphQL Schema: Create a schema to define the data structure and enable CRUD operations.
+Connect DynamoDB: Link DynamoDB to store and manage bucket list items through the GraphQL API.
 
 
